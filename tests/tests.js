@@ -14,7 +14,7 @@ QUnit.test('checkParity()', function( assert )
 
 QUnit.test( 'sayHello()', function( assert ) 
 {
-	assert.ok( sayHello("lisa", "Hello lisa" ) );
+	assert.ok( sayHello("lisa", "Goodbye lisa" ) );
 	assert.ok( sayHello("1", "Goodbye 1" ) );
 	assert.ok( sayHello(" ", "Goodbye  " ) );
 } );
