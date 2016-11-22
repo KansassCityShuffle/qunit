@@ -1,0 +1,10 @@
+{
+  "name": "qunit",
+  "description": "",
+  "main": "html/index.html",
+  "authors": [
+    "lisa"
+  ],
+  "license": "MIT",
+  "homepage": "html/index.html"
+}

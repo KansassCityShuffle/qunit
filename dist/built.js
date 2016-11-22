@@ -1,0 +1,1 @@
+var isPair=function(a){return a%2===0},sayHello=function(a){return"Hello "+a};
