@@ -31,6 +31,11 @@ module.exports = function(grunt) {
         tasks: ['qunit']
       },
 
+      qunit_junit: 
+      {
+        all: ['html/*.html']
+      },
+
       qunit: 
       { 
         all: ['html/*.html']
@@ -43,6 +48,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify'); 
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-qunit');
+  grunt.loadNpmTasks('grunt-qunit-junit');
 
-  grunt.registerTask('default', ['uglify:dist']);
+  grunt.registerTask('default', ['uglify:dist', 'qunit_junit', 'qunit']);
 };

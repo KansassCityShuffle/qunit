@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite name="global" errors="0" failures="0" tests="3" time="0.03">
+		<testcase classname="global" name="hello test" assertions="1" time="0.01">
+		</testcase>
+		<testcase classname="global" name="checkParity()" assertions="5" time="0.01">
+		</testcase>
+		<testcase classname="global" name="sayHello()" assertions="4" time="0.01">
+		</testcase>
+	</testsuite>
+</testsuites>
